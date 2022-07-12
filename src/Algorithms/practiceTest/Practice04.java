@@ -35,7 +35,6 @@ public class Practice04 {
             } else {
                 arr[x][y] = 1;
             }
-            map.put(arr[x][y], arr[x][y])
         }
 
         for (int i = 0; i < 10; i++) {
