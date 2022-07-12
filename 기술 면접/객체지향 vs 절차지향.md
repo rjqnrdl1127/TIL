@@ -45,6 +45,6 @@
 
 객체지향과 절차지향은 서로 반대 개념이 아닙니다. 절차지향은 순차적 실행에 초점이 맞춰져 있고, 객체지향은 객체간의 관계와 조직적 구조의 초점이 맞춰져 있다.
 
-![dd.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/602914f0-1144-44fd-9feb-6fe072b808c2/dd.png)
+![dd.png](/Users/seongmin/IdeaProjects/TIL/images/dd.png)
 
 절차지향은 데이터를 중심으로 함수를 구현합니다. 이에 반해 객체지향은 기능을 중심으로 메서드를 구현하게 됩니다.
