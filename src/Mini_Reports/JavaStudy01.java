@@ -1,3 +1,5 @@
+package Mini_Reports;
+
 public class JavaStudy01 {
 
     public static void main(String[] args) {

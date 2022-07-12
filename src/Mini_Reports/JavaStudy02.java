@@ -1,3 +1,5 @@
+package Mini_Reports;
+
 import java.io.IOException;
 import java.util.Scanner;
 
