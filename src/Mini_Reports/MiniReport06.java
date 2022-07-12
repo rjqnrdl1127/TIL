@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * @author 이성민(rjqnrdl1127)
  */
-public class JavaStudy06 {
+public class MiniReport06 {
 
     public static void main(String[] args) {
         String[][] candidates = {{"1", "이재명"}, {"2", "윤석열"}, {"3", "심상정"}, {"4", "안철수"}}; // 후보자 배열

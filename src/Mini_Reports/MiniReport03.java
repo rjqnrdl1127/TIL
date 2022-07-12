@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author 이성민(rjqnrdl1127)
  */
 
-public class JavaStudy03 {
+public class MiniReport03 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

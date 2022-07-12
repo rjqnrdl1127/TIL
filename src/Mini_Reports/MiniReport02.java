@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author 이성민(rjqnrdl1127)
  */
 
-public class JavaStudy02 {
+public class MiniReport02 {
 
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
