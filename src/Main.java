@@ -1,90 +1,23 @@
-import java.util.*;
-
-class MyArray {
-
-    int[] arr;
-
-    // 배열의 초기 사이즈 설정
-    public MyArray(int size) {
-        this.arr = new int[size];
-    }
-
-    // 배열에 데이터 삽입
-    public void insertData(int index, int data) {
-        if (index < 0 || index > this.arr.length) {
-            System.out.println("Index Error");
-            return;
-        }
-
-        int[] arrDup = this.arr.clone(); // 기존 데이터 복사
-        this.arr = new int[this.arr.length + 1];
-
-        for (int i = 0; i < index; i++) {
-            this.arr[i] = arrDup[i];
-        }
-
-        for (int i = index + 1; i < this.arr.length; i++) {
-            this.arr[i] = arrDup[i - 1];
-        }
-
-        this.arr[index] = data;
-    }
-
-    public void removeData(int data) {
-        int targetIndex = -1;
-
-        for (int i = 0; i < this.arr.length; i++) {
-            if (this.arr[i] == data) {
-                targetIndex = i;
-                break;
-            }
-        }
-
-        if (targetIndex == -1) {
-            System.out.println("해당 데이터가 없습니다.");
-        } else {
-            int[] arrDup = this.arr.clone();
-            this.arr = new int[this.arr.length - 1];
-
-            for (int i = 0; i < targetIndex; i++) {
-                this.arr[i] = arrDup[i];
-            }
-
-            for (int i = 0; i < this.arr.length; i++) {
-                this.arr[i] = arrDup[i + 1];
-            }
-        }
-    }
-}
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        int size = 5;
-        MyArray myArray = new MyArray(size);
+        int N = Integer.parseInt(reader.readLine());
+        int count = 1;
+        int range = 2;
 
-        for (int i = 0; i < size; i++) {
-            myArray.arr[i] = i + 1;
+        if (N == 1) {
+            System.out.println("1");
+        } else {
+            while (range <= N) {
+                range = range + (6 * count);
+                count++;
+            }
+            System.out.println(count);
         }
-        System.out.println(Arrays.toString(myArray.arr));   // [1, 2, 3, 4, 5]
-
-        myArray.arr[0] = 10;
-        System.out.println(Arrays.toString(myArray.arr));   // [10, 2, 3, 4, 5]
-
-        myArray.insertData(2, 20);
-        System.out.println(Arrays.toString(myArray.arr));   // [10, 2, 20, 3, 4, 5]
-
-        myArray.insertData(6, 60);
-        System.out.println(Arrays.toString(myArray.arr));   // [10, 2, 20, 3, 4, 5, 60]
-
-        myArray.insertData(-1, 0);  // Index Error
-
-        myArray.removeData(4);
-        System.out.println(Arrays.toString(myArray.arr));   // [10, 2, 20, 3, 5, 60]
-
-        myArray.removeData(5);
-        System.out.println(Arrays.toString(myArray.arr));   // [10, 2, 20, 3, 60]
-
-        myArray.removeData(99); // 해당 데이터가 없습니다.
     }
 }
