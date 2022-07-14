@@ -3,21 +3,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
+
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(reader.readLine());
+        int[] Rectangle = {n, n * 2};
 
-        int N = Integer.parseInt(reader.readLine());
-        int count = 1;
-        int range = 2;
 
-        if (N == 1) {
-            System.out.println("1");
-        } else {
-            while (range <= N) {
-                range = range + (6 * count);
-                count++;
-            }
-            System.out.println(count);
-        }
     }
 }

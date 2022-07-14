@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826372be-55d4-4929-a708-15858ec8d145" name="Changes" comment="추가">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Nonlinear_data_structures/Tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Nonlinear_data_structures/Tree/BinaryTree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자료구조_with_java/선형 자료구조/데크.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자료구조_with_java/선형 자료구조/연결리스트.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자료구조_with_java/선형 자료구조/큐.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자료구조_with_java/선형 자료구조/해시테이블.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/CodingTest01/Solution01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/CodingTest01/Solution02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/진법.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/진법.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/practiceTest/Practice04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/practiceTest/Practice04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자료구조_with_java/배열.md" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조_with_java/선형 자료구조/배열.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자료구조_with_java/스택.md" beforeDir="false" afterPath="$PROJECT_DIR$/자료구조_with_java/선형 자료구조/스택.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1657251217292</updated>
       <workItem from="1657642100971" duration="6233000" />
-      <workItem from="1657651423650" duration="8687000" />
+      <workItem from="1657651423650" duration="9081000" />
+      <workItem from="1657792282135" duration="10918000" />
     </task>
     <task id="LOCAL-00001" summary="위치 조정">
       <created>1657642202018</created>
@@ -153,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657651398447</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="추가">
+      <created>1657738702338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657738702338</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
