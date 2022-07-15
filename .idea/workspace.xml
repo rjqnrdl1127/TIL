@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826372be-55d4-4929-a708-15858ec8d145" name="Changes" comment="추가">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/CodingTest01/Solution01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/CodingTest01/Solution02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/JVM (Java Virtual Machine) 2071bcd9b6cb427288226c6960fe094e/400px-JvmSpec7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/JVM (Java Virtual Machine) 2071bcd9b6cb427288226c6960fe094e/img1.daumcdn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기술 면접/JVM (Java Virtual Machine) 2071bcd9b6cb427288226c6960fe094e.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기술 면접/Java의 메모리 구조.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +36,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/seongmin/IdeaProjects/TIL/images&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/seongmin/IdeaProjects/TIL/기술 면접",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/기술 면접" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/자료구조_with_java/선형 자료구조" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/기술 면접" />
+      <recent name="$PROJECT_DIR$/자료구조_with_java/선형 자료구조" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -109,7 +112,8 @@
       <updated>1657251217292</updated>
       <workItem from="1657642100971" duration="6233000" />
       <workItem from="1657651423650" duration="9081000" />
-      <workItem from="1657792282135" duration="10918000" />
+      <workItem from="1657792282135" duration="11566000" />
+      <workItem from="1657924676166" duration="894000" />
     </task>
     <task id="LOCAL-00001" summary="위치 조정">
       <created>1657642202018</created>
@@ -153,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657738702338</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="추가">
+      <created>1657810394019</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657810394019</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
