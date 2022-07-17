@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826372be-55d4-4929-a708-15858ec8d145" name="Changes" comment="추가">
-      <change afterPath="$PROJECT_DIR$/src/Linear_data_structure/Queue/QueueWithArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linear_data_structure/Stack/StackWithArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linear_data_structure/Stack/StackWithArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/자료구조_with_java/선형 자료구조/스택(Stack).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기술 면접/컴퓨터 공학/비트로 문자와 숫자 표현.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Nonlinear_data_structures/Tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Nonlinear_data_structures/Tree/BinaryTree2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTree2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기술 면접/JVM (Java Virtual Machine) 2071bcd9b6cb427288226c6960fe094e.md" beforeDir="false" afterPath="$PROJECT_DIR$/기술 면접/JVM (Java Virtual Machine).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자료구조_with_java/선형 자료구조/스택.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/자료구조_with_java/선형 자료구조/연결리스트.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/기술 면접/JVM (Java Virtual Machine).md" beforeDir="false" afterPath="$PROJECT_DIR$/기술 면접/Java/JVM (Java Virtual Machine).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기술 면접/Java의 메모리 구조.md" beforeDir="false" afterPath="$PROJECT_DIR$/기술 면접/Java/Java의 메모리 구조.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기술 면접/객체지향 vs 절차지향.md" beforeDir="false" afterPath="$PROJECT_DIR$/기술 면접/Java/객체지향 vs 절차지향.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +45,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/seongmin/IdeaProjects/TIL/자료구조_with_java/선형 자료구조",
+    "last_opened_file_path": "/Users/seongmin/IdeaProjects/TIL/기술 면접/컴퓨터 공학",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/기술 면접/컴퓨터 공학" />
       <recent name="$PROJECT_DIR$/자료구조_with_java/선형 자료구조" />
       <recent name="$PROJECT_DIR$/기술 면접" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/기술 면접/Java" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/기술 면접" />
       <recent name="$PROJECT_DIR$/자료구조_with_java/선형 자료구조" />
@@ -148,7 +145,7 @@
       <workItem from="1657642100971" duration="6233000" />
       <workItem from="1657651423650" duration="9081000" />
       <workItem from="1657792282135" duration="11566000" />
-      <workItem from="1657924676166" duration="9125000" />
+      <workItem from="1657924676166" duration="10855000" />
     </task>
     <task id="LOCAL-00001" summary="위치 조정">
       <created>1657642202018</created>
@@ -206,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657925684096</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="추가">
+      <created>1657946411128</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657946411128</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
