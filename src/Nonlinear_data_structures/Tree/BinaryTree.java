@@ -1,4 +1,4 @@
-package Tree;
+package Nonlinear_data_structures.Tree;
 // 배열을 이용하여 이진 트리 구현
 
 public class BinaryTree {

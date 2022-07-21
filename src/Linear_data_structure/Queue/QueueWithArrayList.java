@@ -14,11 +14,11 @@ public class QueueWithArrayList {
         else return false;
     }
 
-    public void push(Object data) {
+    public void enqueue(Object data) {
         this.list.add(data);
     }
 
-    public Object pop() {
+    public Object dequeue() {
         if (this.isEmpty()) {
             System.out.println("데이터가 없습니다.");
             return null;
@@ -44,18 +44,17 @@ public class QueueWithArrayList {
 
     public static void main(String[] args) {
         QueueWithArrayList queue = new QueueWithArrayList();
-        queue.push(1);
-        queue.push(0.1);
-        queue.push("가나다라");
+        queue.enqueue(1);
+        queue.enqueue(0.1);
+        queue.enqueue("가나다라");
         queue.printQueue();
 
         System.out.println(queue.peek());
 
-        System.out.println(queue.pop());
+        System.out.println(queue.dequeue());
         queue.printQueue();
 
-        queue.pop();
+        queue.dequeue();
         queue.printQueue();
-
     }
 }

@@ -1,4 +1,4 @@
-package Tree;
+package Nonlinear_data_structures.Tree;
 // 연결 리스트를 이용 이진 트리 구성, 순회
 
 import java.util.LinkedList;
