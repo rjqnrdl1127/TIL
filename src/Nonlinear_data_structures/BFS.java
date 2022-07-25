@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class BFS {
 
     private static void bfs(int start, ArrayList<ArrayList<Integer>> list, int[] parents, int n) {
-        LinkedList<Integer> queue = new LinkedList<Integer>();
+        LinkedList<Integer> queue = new LinkedList<>();
         queue.offer(start);
         parents[start] = 1;
 

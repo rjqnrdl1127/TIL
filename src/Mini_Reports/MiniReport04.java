@@ -27,16 +27,17 @@ public class MiniReport04 {
         switch (scanner.next()) {
             case "m":
                 if (year < 2000) {
-                    System.out.printf("%d%d%02d-1%d", year - (year / 100) * 100, month, day, examNumber);
+                    System.out.printf("%02d%02d%02d-1%d", year - (year / 100) * 100, month, day, examNumber);
                 } else {
-                    System.out.printf("%d%d%02d-3%d", year - (year / 100) * 100, month, day, examNumber);
-                }
+                    System.out.printf("%02d%02d%02d-3%d", year - (year / 100) * 100, month, day, examNumber);
+                }break;
             case "f":
                 if (year < 2000) {
-                    System.out.printf("%d%d%02d-2%d", year - (year / 100) * 100, month, day, examNumber);
+                    System.out.printf("%02d%02d%02d-2%d", year - (year / 100) * 100, month, day, examNumber);
                 } else {
-                    System.out.printf("%d%d%02d-4%d", year - (year / 100) * 100, month, day, examNumber);
+                    System.out.printf("%02d%02d%02d-4%d", year - (year / 100) * 100, month, day, examNumber);
                 }
+                break;
         }
     }
 }
